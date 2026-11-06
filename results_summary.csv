@@ -1,0 +1,13 @@
+Treatment,Text Representation,Algorithm,Best Hyperparameters,CV F1,Accuracy,Precision,Recall,F1-score,Recall negative,Recall positive
+original,TF-IDF,SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}",0.8433,0.8325,0.846,0.8121,0.8206,0.9356,0.6886
+original,TF-IDF,Logistic Regression,"{'C': 10, 'penalty': 'l2'}",0.8367,0.8325,0.8382,0.8164,0.8229,0.9142,0.7186
+original,Word2Vec,SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",0.8304,0.83,0.8441,0.8091,0.8177,0.9356,0.6826
+original,Word2Vec,Logistic Regression,"{'C': 0.1, 'penalty': 'l1'}",0.8316,0.8375,0.8424,0.8224,0.8286,0.9142,0.7305
+class weight,TF-IDF,SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'linear'}",0.8468,0.83,0.8348,0.8142,0.8205,0.9099,0.7186
+class weight,TF-IDF,Logistic Regression,"{'C': 1, 'penalty': 'l2'}",0.8428,0.8575,0.8616,0.8446,0.8504,0.9227,0.7665
+class weight,Word2Vec,SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",0.8279,0.8525,0.8551,0.8403,0.8455,0.9142,0.7665
+class weight,Word2Vec,Logistic Regression,"{'C': 0.1, 'penalty': 'l1'}",0.8223,0.8625,0.8593,0.8574,0.8583,0.8884,0.8263
+undersampling,TF-IDF,SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",0.8406,0.845,0.8487,0.8313,0.8371,0.9142,0.7485
+undersampling,TF-IDF,Logistic Regression,"{'C': 1, 'penalty': 'l2'}",0.8401,0.85,0.8518,0.8382,0.8431,0.9099,0.7665
+undersampling,Word2Vec,SVM,"{'C': 0.1, 'gamma': 'scale', 'kernel': 'linear'}",0.8275,0.86,0.8589,0.8518,0.8548,0.9013,0.8024
+undersampling,Word2Vec,Logistic Regression,"{'C': 0.1, 'penalty': 'l2'}",0.8275,0.86,0.8575,0.8535,0.8553,0.8927,0.8144
